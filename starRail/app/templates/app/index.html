@@ -1,0 +1,30 @@
+{% extends 'app/static/base.html' %}
+
+{% block title %}Главная страница{% endblock title %}
+
+{% block main %}
+    <video class="video" autoplay muted src="static/app/video/main.mp4"></video>
+    <div class="logo">
+        <img src="static/app/img/logo.png" alt="">
+    </div>
+    <div class="items">
+        <div class="qr">
+            <img src="static/app/img/qr.png" alt="">
+        </div>
+        <div class="links">
+            <div class="ps">
+                <img class="links-img" src="static/app/img/ps.png">
+            </div>
+            <div class="hoyo">
+                <img class="links-img" src="static/app/img/hoyo.png">
+            </div>
+            <div class="appl">
+                <img class="links-img" src="static/app/img/appl.png">
+            </div>
+            <div class="gp">
+                <img class="links-img" src="static/app/img/gp.png">
+            </div>
+
+        </div>
+    </div>
+{% endblock main %}
